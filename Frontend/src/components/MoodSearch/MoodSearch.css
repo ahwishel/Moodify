@@ -1,0 +1,35 @@
+input {
+    font-family: 'Allison', cursive;
+    font-family: 'Urbanist', sans-serif;
+    width: 25vw;
+    height: 75px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18pt;
+}
+
+.mood-search__container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    opacity: 1;
+    transition: opacity ease-out 1s;
+}
+
+.mood-search__submitBtn{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 30px;
+    background-color: grey;
+    transition: background-color ease-in-out 0.5s;
+}
+
+.mood-search__submitBtn:hover{
+    background-color: whitesmoke;
+}
+
+.search-icon{
+    margin-top: 15%;
+}
