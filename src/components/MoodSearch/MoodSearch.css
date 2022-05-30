@@ -1,0 +1,51 @@
+input {
+    display: block;
+    font-family: 'Allison', cursive;
+    font-family: 'Urbanist', sans-serif;
+    width: 20em;
+    height: 75px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18pt;
+}
+
+@media (max-width: 450px) {
+    input{
+        width: 14em;
+    }
+}
+
+.mood-search__container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.mood-search__submitBtn{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px auto;
+    background-color: rgb(30, 171, 140);
+    transition: background-color ease-in-out 0.5s;
+}
+
+.mood-search__submitBtn:hover{
+    background-color: white;
+}
+
+.search-icon{
+    margin-top: 15%;
+}
+
+.credit{
+    color: white;
+    font-size: 15pt;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}

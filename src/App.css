@@ -1,0 +1,41 @@
+h1{
+    font-family: 'Allison', cursive;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 50pt;
+    color: white;
+}
+
+.App{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.incompatible_message{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10em;
+    height: 50%;
+}
+
+.incompatible_message > h1{
+    font-size: 20pt;
+}
